@@ -4,10 +4,14 @@
   "package": "link.infra.mixintrace.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "MixinCrash",
     "MixinCrashReport",
     "MixinCrashReportSection"
   ],
   "injectors": {
     "defaultRequire": 1
-  }
+  },
+  "client": [
+    "MixinMinecraft"
+  ]
 }
