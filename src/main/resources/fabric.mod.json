@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "mixintrace",
+  "version": "${version}",
+  "name": "MixinTrace",
+  "description": "Adds a list of mixins in the stack trace to crash reports",
+  "authors": [
+    "comp500",
+    "MiTask"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/mixintrace",
+    "sources": "https://github.com/comp500/mixintrace",
+    "issues": "https://github.com/comp500/mixintrace/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/mixintrace/icon.png",
+
+  "environment": "*",
+  "mixins": [
+    "mixintrace.mixins.json"
+  ],
+
+  "depends": {
+    "minecraft": "1.0.0-beta.7.3"
+  }
+}
